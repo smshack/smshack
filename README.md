@@ -2,19 +2,29 @@
 
 # 서명석 · Myungseok Seo
 
-### DevOps / GitLab Engineer · 7년차
+**DevOps / GitLab Engineer**
 
-**배포 이후의 세계를 담당합니다** — 온프렘부터 클라우드, 그리고 폐쇄망까지
+배포 이후의 세계를 담당합니다
 
-**플래티어** IDT · 경기 성남
+<sub>7년차 · 플래티어 IDT · 경기 성남 · 원격 작업</sub>
 
-[![외주 문의](https://img.shields.io/badge/외주_·_기술자문_문의하기-2EA043?style=for-the-badge&logo=github&logoColor=white)](https://github.com/smshack/smshack/issues/new/choose)
-[![포트폴리오](https://img.shields.io/badge/포트폴리오-000000?style=for-the-badge&logo=Notion&logoColor=white)](https://northern-breath-ec3.notion.site/a567896700704dcb9c642913a76d6fa6)
-[![데모](https://img.shields.io/badge/라이브_데모-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://welfare-navigator.vercel.app)
+<br>
+
+[![문의하기](https://img.shields.io/badge/외주_문의하기-FC6D26?style=for-the-badge&logo=github&logoColor=white)](https://github.com/smshack/smshack/issues/new/choose)
+[![포트폴리오](https://img.shields.io/badge/포트폴리오-1F2328?style=for-the-badge&logo=notion&logoColor=white)](https://northern-breath-ec3.notion.site/a567896700704dcb9c642913a76d6fa6)
+[![데모](https://img.shields.io/badge/라이브_데모-1F2328?style=for-the-badge&logo=vercel&logoColor=white)](https://welfare-navigator.vercel.app)
 
 </div>
 
----
+<br>
+
+> ### 💬 이런 얘기라면 편하게 물어보세요
+>
+> **WebRTC가 연결이 안 될 때** · **GitLab CI를 옮겨야 할 때** · **쿠버네티스를 처음 올릴 때**
+>
+> 답이 될 만한 게 있으면 그냥 알려드립니다. 일이 되든 안 되든 상관없습니다.
+
+<br>
 
 개발자는 코드를 알고, 저는 **그 코드가 실제로 도는 곳**을 압니다.
 코드 리뷰에서는 안 보이고 새벽 3시에 보이는 층입니다.
@@ -22,67 +32,100 @@
 ```mermaid
 flowchart LR
     A["코드<br/>개발자"] --> B["CI<br/>GitLab CI"] --> C["배포<br/>ArgoCD · Helm"] --> D["런타임<br/>K8s · 모니터링"] --> E["장애<br/>Grafana · 로그"]
-    style A fill:#e8e8e8,stroke:#999,color:#333
-    style B fill:#FC6D26,stroke:#FC6D26,color:#fff
-    style C fill:#FC6D26,stroke:#FC6D26,color:#fff
-    style D fill:#FC6D26,stroke:#FC6D26,color:#fff
-    style E fill:#FC6D26,stroke:#FC6D26,color:#fff
+    style A fill:#EDEDED,stroke:#BBBBBB,color:#333333
+    style B fill:#FC6D26,stroke:#FC6D26,color:#FFFFFF
+    style C fill:#FC6D26,stroke:#FC6D26,color:#FFFFFF
+    style D fill:#FC6D26,stroke:#FC6D26,color:#FFFFFF
+    style E fill:#FC6D26,stroke:#FC6D26,color:#FFFFFF
 ```
 
 <sub>주황색 구간이 제가 7년간 서 있던 자리입니다. 대부분의 개발자는 첫 칸까지만 봅니다.</sub>
 
 <br>
 
-## 이런 일을 맡기실 수 있습니다
+---
+
+## 🧰 이런 일을 받습니다
 
 <table>
-<tr><th width="26%">무엇을</th><th width="46%">실제로 해본 것</th><th width="28%">어디서</th></tr>
 <tr>
-<td><b>🔒 폐쇄망 · 망분리 환경</b><br/><sub>검색으로는 안 나오는 영역</sub></td>
-<td>Air-Gapped 개발·배포 인프라 구성<br/>내부 Package/Container Registry, 오프라인 Artifact 관리<br/>사설 CA 및 내부 DNS/네트워크 구성<br/>소스·Artifact 반출입을 고려한 형상관리·배포 구조</td>
-<td>와트<br/>플래티어</td>
+<th width="24%">무엇을</th>
+<th width="48%">실제로 해본 것</th>
+<th width="28%">어디서</th>
 </tr>
+
 <tr>
-<td><b>📡 WebRTC 실시간 통신 인프라</b></td>
-<td>STUN / TURN / ICE 환경 구성 및 Coturn 운영<br/>Janus · Jitsi · Kurento · aiortc 미디어 서버 검토·구축<br/>실시간 영상·음성 연결 및 네트워크 문제 분석</td>
+<td><b>📡 WebRTC<br/>실시간 통신</b><br/><sub>연결 안 되는 문제 전문</sub></td>
+<td>STUN / TURN / ICE 구성 및 Coturn 운영<br/>Janus · Jitsi · Kurento · aiortc 미디어 서버 구축<br/>NAT 뒤 연결 실패, 네트워크 문제 분석</td>
 <td>와트</td>
 </tr>
+
 <tr>
-<td><b>⚙️ GitLab · CI/CD 구축·운영</b></td>
-<td>GitLab CE <b>직접 구축·운영</b> (SaaS 아님)<br/>GitLab Runner + Docker CI 구성 및 트러블슈팅<br/>Jenkins Pipeline 빌드·배포 자동화<br/>ArgoCD + Kustomize 배포 자동화<br/>SonarQube 품질 게이트 · Black Duck 취약점 관리<br/>Harbor / Nexus 사내 Registry 운영</td>
+<td><b>⚙️ GitLab · CI/CD</b><br/><sub>구축 · 이관 · 표준화</sub></td>
+<td>GitLab CE <b>직접 구축·운영</b> (SaaS 아님)<br/>GitLab Runner + Docker CI 구성 및 트러블슈팅<br/>Jenkins Pipeline, ArgoCD + Kustomize 자동화<br/>SonarQube 품질 게이트 · Harbor / Nexus Registry</td>
 <td>플래티어<br/>와트<br/>라온피플</td>
 </tr>
+
 <tr>
-<td><b>☸️ 쿠버네티스 환경 구축</b><br/><sub>온프렘 · 클라우드 · 폐쇄망</sub></td>
-<td>kubespray · kubeadm로 온프렘 클러스터 <b>밑바닥부터</b> 구축<br/>ingress-nginx · rook-ceph · Helm 구성<br/>Azure AKS 리소스 및 계정 권한 설계<br/>Pod · Service · PVC · NetworkPolicy 운영 및 장애 분석</td>
+<td><b>☸️ 쿠버네티스<br/>환경 구축</b></td>
+<td>kubespray · kubeadm로 온프렘 클러스터 <b>밑바닥부터</b><br/>ingress-nginx · rook-ceph · Helm 구성<br/>Azure AKS 리소스 및 권한 설계<br/>Pod · PVC · NetworkPolicy 장애 분석</td>
 <td>와트<br/>오베네프<br/>라온피플</td>
 </tr>
+
 <tr>
-<td><b>📊 모니터링 · 관측 스택</b></td>
-<td>Prometheus · Grafana · Thanos 구성<br/>cAdvisor · Node Exporter 기반 컨테이너/호스트 관측<br/>Grafana API로 대시보드 배포 자동화</td>
+<td><b>📊 모니터링<br/>관측 스택</b></td>
+<td>Prometheus · Grafana · Thanos 구성<br/>cAdvisor · Node Exporter 컨테이너/호스트 관측<br/>Grafana API로 대시보드 배포 자동화</td>
 <td>와트<br/>라온피플</td>
 </tr>
+
 <tr>
-<td><b>🖥️ 서버 · DB · 인프라 운영</b></td>
-<td>Ubuntu 서버 구축, Nginx Reverse Proxy 및 LB 구성<br/>AWS EC2 · Naver Cloud · GCP · 코로케이션<br/>PostgreSQL · MySQL · MSSQL · MongoDB · Redis 운영</td>
+<td><b>🔧 서버 · DB<br/>장애 분석</b></td>
+<td>Ubuntu 구축, Nginx Reverse Proxy · LB<br/>AWS EC2 · Naver Cloud · GCP<br/>PostgreSQL · MySQL · MSSQL · MongoDB · Redis<br/>DNS · 인증서 · 권한 · WebSocket 이슈</td>
 <td>와트<br/>오베네프</td>
 </tr>
+
 <tr>
 <td><b>🌐 웹 서비스 개발</b><br/><sub>기획부터 배포까지</sub></td>
-<td>React · Next.js · TypeScript · Tailwind · MUI · shadcn/ui<br/>Express · NestJS · Spring Boot(Java 17) · gRPC<br/>Keycloak SSO · JWT 인증 연동<br/>Figma 기획 → Vercel 배포까지 단독 진행</td>
+<td>React · Next.js · TypeScript · Tailwind · shadcn/ui<br/>Express · NestJS · Spring Boot(Java 17) · gRPC<br/>Keycloak SSO · JWT 인증 연동</td>
 <td>와트<br/>엔아이<br/>오베네프</td>
 </tr>
 </table>
 
-> **혼자서 기획부터 운영까지 닫을 수 있습니다.**
-> LMS 백엔드 단독 전담, 온프렘 K8s 단독 구축, 홈페이지 기획–배포 단독 진행 — 전부 혼자 끝냈습니다.
->
-> **드문 조합 두 가지를 갖고 있습니다.** 하나는 **폐쇄망**, 하나는 **WebRTC**입니다.
-> 둘 다 문서를 읽어서는 안 되고, 실제로 안 되는 걸 붙잡고 있어 본 사람만 합니다.
+> 🔒 **폐쇄망 · 망분리는 상시 외주로 받지 않습니다.**
+> 현장 반입과 상주가 필요한 일이 대부분이라, 본업과 병행하면 제대로 못 해드립니다.
+> 다만 **오프라인 레지스트리 구성이나 반출입 구조 설계 같은 문서·설계 단계 자문은 원격으로 가능**합니다.
+> 실제로 2년 넘게 겪은 환경이라 어디서 터지는지는 압니다.
 
 <br>
 
-## 만든 것
+## ⏱️ 이렇게 일합니다
+
+<table>
+<tr>
+<td width="22%"><b>가능한 시간</b></td>
+<td>본업이 있어 <b>평일 저녁과 주말</b>에 작업합니다.<br/>그래서 <b>단발성 자문</b>과 <b>단기 프로젝트</b>를 선호합니다. 상주가 필요한 일은 맡지 않습니다.</td>
+</tr>
+<tr>
+<td><b>진행 방식</b></td>
+<td><b>원격 100%</b>. 필요하면 화상으로 같이 화면 보면서 잡습니다.</td>
+</tr>
+<tr>
+<td><b>시작할 때</b></td>
+<td>먼저 <b>지금 뭐가 안 되는지</b>부터 봅니다. 범위를 문서로 맞추고 손을 댑니다.<br/>기획이 덜 된 상태로 들어가면 왕복만 늘어난다는 걸 비싸게 배웠습니다.</td>
+</tr>
+<tr>
+<td><b>남기는 것</b></td>
+<td>끝나면 <b>다음 사람이 읽고 운영할 수 있는 문서</b>를 같이 드립니다.<br/>저 없이 굴러가야 끝난 겁니다.</td>
+</tr>
+<tr>
+<td><b>안 맡는 일</b></td>
+<td>제가 안 해본 영역은 <b>안 해봤다고 말씀드립니다.</b><br/>되는 척하고 배우면서 하는 게 제일 비쌉니다.</td>
+</tr>
+</table>
+
+<br>
+
+## 🚀 만든 것
 
 <details open>
 <summary><b>복지 내비게이터</b> — 자기 조건을 모르는 사람을 위한 복지 안내 &nbsp;<a href="https://welfare-navigator.vercel.app">🔗 라이브</a></summary>
@@ -130,7 +173,7 @@ flowchart LR
 
 <br>
 
-## 경력 · 7년
+## 📁 경력 · 7년
 
 <sub>펼쳐서 보실 수 있습니다.</sub>
 
@@ -257,31 +300,21 @@ IDT 부서. 사내 GitLab / CI 플랫폼 운영.
 
 <br>
 
-## 일하는 방식
-
-<table>
-<tr><td width="26%"><b>계약 형태</b></td><td>프로젝트 단위 · 시간제 자문 · 단발성 트러블슈팅 모두 가능합니다.</td></tr>
-<tr><td><b>진행 방식</b></td><td>원격 기본. 폐쇄망처럼 <b>현장에 가야만 되는 일</b>은 방문합니다 — 반입 절차가 있는 환경을 여러 번 겪었습니다.</td></tr>
-<tr><td><b>시작할 때</b></td><td>먼저 <b>지금 뭐가 안 되는지</b>부터 봅니다. 구성도와 범위를 문서로 먼저 맞추고 손을 댑니다.<br/>기획이 덜 된 상태로 들어가면 왕복만 늘어난다는 걸 비싸게 배웠습니다.</td></tr>
-<tr><td><b>남기는 것</b></td><td>작업이 끝나면 <b>다음 사람이 읽고 운영할 수 있는 문서</b>를 같이 드립니다. 저 없이 굴러가야 끝난 겁니다.</td></tr>
-<tr><td><b>안 맡는 일</b></td><td>제가 안 해본 영역은 안 해봤다고 말씀드립니다. 되는 척하고 배우면서 하는 게 제일 비쌉니다.</td></tr>
-</table>
-
 <br>
 
-## 다뤄본 것
+## 🧱 다뤄본 것
 
 <sub>배지 나열 대신 <b>어디서 굴려봤는지</b>로 적습니다.</sub>
 
 | 층 | 무엇을 | 어디서 |
 |---|---|---|
-| **CI/CD** | GitLab CE·GitLab CI·GitLab Runner, Jenkins, ArgoCD, Kustomize, Helm | 사내 전 개발팀 파이프라인 운영, GitLab CE 직접 구축 |
+| **CI/CD** | GitLab CE · GitLab CI · Runner, Jenkins, ArgoCD, Kustomize, Helm | 사내 전 개발팀 파이프라인 운영, GitLab CE 직접 구축 |
 | **품질·보안** | SonarQube, Black Duck, Harbor, Nexus, 사설 CA | 납품 대응 품질 게이트 및 사내 Registry 운영 |
-| **인프라** | Kubernetes(kubespray·kubeadm·AKS·Minikube), Docker, Docker Compose, rook-ceph, ingress-nginx | 온프렘 클러스터 단독 구축, 폐쇄망 반입 |
-| **관측** | Prometheus, Grafana, Thanos, cAdvisor, Node Exporter | AI 플랫폼·실서비스 모니터링 스택 구성 |
+| **인프라** | Kubernetes(kubespray · kubeadm · AKS), Docker, rook-ceph, ingress-nginx | 온프렘 클러스터 단독 구축, 폐쇄망 반입 |
+| **관측** | Prometheus, Grafana, Thanos, cAdvisor, Node Exporter | AI 플랫폼 · 실서비스 모니터링 스택 구성 |
 | **실시간 통신** | WebRTC, Coturn(STUN/TURN/ICE), Janus, Jitsi, Kurento, aiortc | 실시간 영상·음성 서비스 인프라 구축·운영 |
-| **서버·네트워크** | Ubuntu, Nginx(Reverse Proxy·LB), DNS, 인증서, WebSocket | 서비스 운영 및 장애 트러블슈팅 |
-| **클라우드** | AWS(EC2·S3), Azure, GCP, Naver Cloud, Vercel, 코로케이션 | 서비스 운영·배포 |
+| **서버·네트워크** | Ubuntu, Nginx(Reverse Proxy · LB), DNS, 인증서, WebSocket | 서비스 운영 및 장애 트러블슈팅 |
+| **클라우드** | AWS(EC2 · S3), Azure, GCP, Naver Cloud, Vercel, 코로케이션 | 서비스 운영·배포 |
 | **백엔드** | Node.js, NestJS, Express, Spring Boot(Java 17), gRPC | LMS 단독 개발, 음성 미들웨어, 사내 API |
 | **DB** | PostgreSQL, MySQL, MSSQL, MongoDB, Redis, Oracle | 다중 DB 환경 운영 |
 | **프론트** | React, Next.js, TypeScript, Redux, Tailwind, MUI, shadcn/ui | LMS, 자사 홈페이지, 복지 내비게이터 |
@@ -293,12 +326,14 @@ IDT 부서. 사내 GitLab / CI 플랫폼 운영.
 
 <div align="center">
 
-**외주 · 기술자문 문의를 받고 있습니다.**
+### 📮 문의
 
-폐쇄망 구축 · WebRTC 인프라 · GitLab/CI-CD 이관 · 쿠버네티스 · 모니터링,<br/>또는 기획부터 배포까지 통째로.
+**단발성 자문부터 단기 프로젝트까지** 받고 있습니다.
+아직 정리가 안 된 상태여도 괜찮습니다 — 지금 막혀 있는 것 한 줄이면 충분합니다.
 
-[![문의하기](https://img.shields.io/badge/문의_남기기-2EA043?style=for-the-badge&logo=github&logoColor=white)](https://github.com/smshack/smshack/issues/new/choose)
-[![Email](https://img.shields.io/badge/5432tat@naver.com-555555?style=for-the-badge&logo=maildotru&logoColor=white)](mailto:5432tat@naver.com)
-[![Notion](https://img.shields.io/badge/상세_포트폴리오-000000?style=for-the-badge&logo=Notion&logoColor=white)](https://northern-breath-ec3.notion.site/a567896700704dcb9c642913a76d6fa6)
+<br>
+
+[![문의하기](https://img.shields.io/badge/외주_문의하기-FC6D26?style=for-the-badge&logo=github&logoColor=white)](https://github.com/smshack/smshack/issues/new/choose)
+[![Email](https://img.shields.io/badge/5432tat@naver.com-1F2328?style=for-the-badge&logo=maildotru&logoColor=white)](mailto:5432tat@naver.com)
 
 </div>

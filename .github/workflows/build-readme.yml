@@ -11,6 +11,11 @@ on:
 permissions:
   contents: write
 
+# 두 실행이 겹치면 나중 것의 push 가 거부된다. 한 번에 하나만 돌린다.
+concurrency:
+  group: build-readme
+  cancel-in-progress: false
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -36,4 +41,10 @@ jobs:
           fi
           git add README.md
           git commit -m "chore: README 자동 갱신 [skip ci]"
-          git push
+          for i in 1 2 3; do
+            git push && exit 0
+            echo "push 거부됨 — rebase 후 재시도 ($i/3)"
+            git pull --rebase --autostash origin main
+          done
+          echo "3회 시도 후에도 실패"
+          exit 1

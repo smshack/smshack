@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 비공개로 문의하기 (이메일)
+    url: mailto:5432tat@naver.com
+    about: 공개 이슈로 남기기 어려운 내용이면 메일로 바로 주세요.
+  - name: 상세 포트폴리오 (Notion)
+    url: https://northern-breath-ec3.notion.site/a567896700704dcb9c642913a76d6fa6
+    about: 지금까지 한 일을 자세히 정리해둔 곳입니다.

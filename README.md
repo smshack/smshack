@@ -8,7 +8,7 @@
 
 **플래티어** IDT · 경기 성남
 
-[![외주 문의](https://img.shields.io/badge/외주_·_기술자문_문의-2EA043?style=for-the-badge&logo=maildotru&logoColor=white)](mailto:5432tat@naver.com)
+[![외주 문의](https://img.shields.io/badge/외주_·_기술자문_문의하기-2EA043?style=for-the-badge&logo=github&logoColor=white)](https://github.com/smshack/smshack/issues/new/choose)
 [![포트폴리오](https://img.shields.io/badge/포트폴리오-000000?style=for-the-badge&logo=Notion&logoColor=white)](https://northern-breath-ec3.notion.site/a567896700704dcb9c642913a76d6fa6)
 [![데모](https://img.shields.io/badge/라이브_데모-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://welfare-navigator.vercel.app)
 
@@ -257,6 +257,18 @@ IDT 부서. 사내 GitLab / CI 플랫폼 운영.
 
 <br>
 
+## 일하는 방식
+
+<table>
+<tr><td width="26%"><b>계약 형태</b></td><td>프로젝트 단위 · 시간제 자문 · 단발성 트러블슈팅 모두 가능합니다.</td></tr>
+<tr><td><b>진행 방식</b></td><td>원격 기본. 폐쇄망처럼 <b>현장에 가야만 되는 일</b>은 방문합니다 — 반입 절차가 있는 환경을 여러 번 겪었습니다.</td></tr>
+<tr><td><b>시작할 때</b></td><td>먼저 <b>지금 뭐가 안 되는지</b>부터 봅니다. 구성도와 범위를 문서로 먼저 맞추고 손을 댑니다.<br/>기획이 덜 된 상태로 들어가면 왕복만 늘어난다는 걸 비싸게 배웠습니다.</td></tr>
+<tr><td><b>남기는 것</b></td><td>작업이 끝나면 <b>다음 사람이 읽고 운영할 수 있는 문서</b>를 같이 드립니다. 저 없이 굴러가야 끝난 겁니다.</td></tr>
+<tr><td><b>안 맡는 일</b></td><td>제가 안 해본 영역은 안 해봤다고 말씀드립니다. 되는 척하고 배우면서 하는 게 제일 비쌉니다.</td></tr>
+</table>
+
+<br>
+
 ## 다뤄본 것
 
 <sub>배지 나열 대신 <b>어디서 굴려봤는지</b>로 적습니다.</sub>
@@ -285,7 +297,8 @@ IDT 부서. 사내 GitLab / CI 플랫폼 운영.
 
 폐쇄망 구축 · WebRTC 인프라 · GitLab/CI-CD 이관 · 쿠버네티스 · 모니터링,<br/>또는 기획부터 배포까지 통째로.
 
-[![Email](https://img.shields.io/badge/5432tat@naver.com-2EA043?style=for-the-badge&logo=maildotru&logoColor=white)](mailto:5432tat@naver.com)
+[![문의하기](https://img.shields.io/badge/문의_남기기-2EA043?style=for-the-badge&logo=github&logoColor=white)](https://github.com/smshack/smshack/issues/new/choose)
+[![Email](https://img.shields.io/badge/5432tat@naver.com-555555?style=for-the-badge&logo=maildotru&logoColor=white)](mailto:5432tat@naver.com)
 [![Notion](https://img.shields.io/badge/상세_포트폴리오-000000?style=for-the-badge&logo=Notion&logoColor=white)](https://northern-breath-ec3.notion.site/a567896700704dcb9c642913a76d6fa6)
 
 </div>

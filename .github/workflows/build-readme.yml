@@ -1,0 +1,39 @@
+name: Build README
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    # 매일 09:00 KST (00:00 UTC)
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+
+      - name: README 갱신
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python build_readme.py
+
+      - name: 변경분 커밋
+        run: |
+          git config user.name "서명석"
+          git config user.email "46982752+smshack@users.noreply.github.com"
+          if git diff --quiet README.md; then
+            echo "변경 없음 — 커밋 생략"
+            exit 0
+          fi
+          git add README.md
+          git commit -m "chore: README 자동 갱신 [skip ci]"
+          git push

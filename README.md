@@ -2,11 +2,11 @@
 
 # 서명석 · Myungseok Seo
 
-**DevOps / GitLab Engineer**
+**DevOps Engineer · Full-Stack Developer**
 
-배포 이후의 세계를 담당합니다
+코드부터 런타임까지, 혼자 건너다닙니다
 
-<sub>7년차 · 플래티어 IDT · 경기 성남 · 원격 작업</sub>
+<sub>7년차 · 플래티어 IDT GitLab 엔지니어 · 경기 성남 · 원격 작업</sub>
 
 <br>
 
@@ -18,76 +18,124 @@
 
 <br>
 
-> ### 💬 이런 얘기라면 편하게 물어보세요
->
-> **WebRTC가 연결이 안 될 때** · **GitLab CI를 옮겨야 할 때** · **쿠버네티스를 처음 올릴 때**
->
-> 답이 될 만한 게 있으면 그냥 알려드립니다. 일이 되든 안 되든 상관없습니다.
-
-<br>
-
-개발자는 코드를 알고, 저는 **그 코드가 실제로 도는 곳**을 압니다.
-코드 리뷰에서는 안 보이고 새벽 3시에 보이는 층입니다.
-
 ```mermaid
 flowchart LR
-    A["코드<br/>개발자"] --> B["CI<br/>GitLab CI"] --> C["배포<br/>ArgoCD · Helm"] --> D["런타임<br/>K8s · 모니터링"] --> E["장애<br/>Grafana · 로그"]
-    style A fill:#EDEDED,stroke:#BBBBBB,color:#333333
+    A["코드<br/>React · NestJS<br/>Spring Boot"] --> B["CI<br/>GitLab CI<br/>Jenkins"] --> C["배포<br/>ArgoCD · Helm<br/>Docker"] --> D["런타임<br/>K8s · 모니터링"] --> E["장애<br/>로그 · 원인 추적"]
+    style A fill:#FC6D26,stroke:#FC6D26,color:#FFFFFF
     style B fill:#FC6D26,stroke:#FC6D26,color:#FFFFFF
     style C fill:#FC6D26,stroke:#FC6D26,color:#FFFFFF
     style D fill:#FC6D26,stroke:#FC6D26,color:#FFFFFF
     style E fill:#FC6D26,stroke:#FC6D26,color:#FFFFFF
 ```
 
-<sub>주황색 구간이 제가 7년간 서 있던 자리입니다. 대부분의 개발자는 첫 칸까지만 봅니다.</sub>
+<div align="center">
+<sub><b>이 다섯 칸을 전부 혼자 지나갑니다.</b> 개발자는 보통 첫 칸까지, 인프라 담당은 보통 셋째 칸부터입니다.</sub>
+</div>
 
 <br>
 
 ---
 
+## 🔀 이런 상황에 부르세요
+
+가장 잘 하는 일은 **개발과 인프라 사이에 끼어서 아무도 못 잡는 문제**입니다.
+
+> **"로컬에선 되는데 서버에선 안 됩니다"**
+> **"빌드는 통과하는데 컨테이너에서만 죽습니다"**
+> **"배포는 됐는데 느립니다. 코드 문제인지 리소스 문제인지 모르겠습니다"**
+> **"개발팀은 인프라 탓하고, 인프라는 코드 탓합니다"**
+
+이런 건 **양쪽을 다 봐야** 잡힙니다.
+저는 코드를 읽고, 그 코드가 도는 컨테이너도 열어봅니다.
+
+<br>
+
 ## 🧰 이런 일을 받습니다
 
-<table>
-<tr>
-<th width="24%">무엇을</th>
-<th width="48%">실제로 해본 것</th>
-<th width="28%">어디서</th>
-</tr>
+### 💻 개발
 
+<table>
+<tr><th width="26%">무엇을</th><th width="46%">실제로 해본 것</th><th width="28%">어디서</th></tr>
+<tr>
+<td><b>백엔드 · API</b></td>
+<td>LMS 백엔드 <b>단독 전담</b> — 강의·수강생 CRUD, 진도율 체크,<br/><code>aggregate</code> 기반 통계 API, video.js 연동 5초 단위 저장<br/>Spring Boot(Java 17) · NestJS · Express<br/>gRPC 음성 데이터 미들웨어 + S3</td>
+<td>오베네프<br/>와트<br/>판도플랫폼</td>
+</tr>
+<tr>
+<td><b>프론트엔드</b></td>
+<td>React · Next.js · TypeScript<br/>Tailwind · MUI · shadcn/ui · Redux · Context API<br/>SEO 고려한 페이지 설계</td>
+<td>와트<br/>엔아이<br/>오베네프</td>
+</tr>
+<tr>
+<td><b>인증 · 연동</b></td>
+<td>Keycloak SSO — 학사 사이트 ↔ LMS 두 서비스 연동<br/>JWT + Redux 인증<br/>학사 DB ↔ 서비스 DB 마이그레이션 시스템</td>
+<td>오베네프</td>
+</tr>
+<tr>
+<td><b>기획부터 배포까지</b></td>
+<td>Figma 기획 → Next.js → Vercel 배포까지 <b>단독 진행</b><br/>크롤링 및 댓글 자동화 시스템</td>
+<td>엔아이<br/>개인 프로젝트</td>
+</tr>
+</table>
+
+### ⚙️ 인프라 · DevOps
+
+<table>
+<tr><th width="26%">무엇을</th><th width="46%">실제로 해본 것</th><th width="28%">어디서</th></tr>
 <tr>
 <td><b>📡 WebRTC<br/>실시간 통신</b><br/><sub>연결 안 되는 문제 전문</sub></td>
 <td>STUN / TURN / ICE 구성 및 Coturn 운영<br/>Janus · Jitsi · Kurento · aiortc 미디어 서버 구축<br/>NAT 뒤 연결 실패, 네트워크 문제 분석</td>
 <td>와트</td>
 </tr>
-
 <tr>
-<td><b>⚙️ GitLab · CI/CD</b><br/><sub>구축 · 이관 · 표준화</sub></td>
+<td><b>GitLab · CI/CD</b><br/><sub>구축 · 이관 · 표준화</sub></td>
 <td>GitLab CE <b>직접 구축·운영</b> (SaaS 아님)<br/>GitLab Runner + Docker CI 구성 및 트러블슈팅<br/>Jenkins Pipeline, ArgoCD + Kustomize 자동화<br/>SonarQube 품질 게이트 · Harbor / Nexus Registry</td>
 <td>플래티어<br/>와트<br/>라온피플</td>
 </tr>
-
 <tr>
-<td><b>☸️ 쿠버네티스<br/>환경 구축</b></td>
+<td><b>쿠버네티스<br/>환경 구축</b></td>
 <td>kubespray · kubeadm로 온프렘 클러스터 <b>밑바닥부터</b><br/>ingress-nginx · rook-ceph · Helm 구성<br/>Azure AKS 리소스 및 권한 설계<br/>Pod · PVC · NetworkPolicy 장애 분석</td>
 <td>와트<br/>오베네프<br/>라온피플</td>
 </tr>
-
 <tr>
-<td><b>📊 모니터링<br/>관측 스택</b></td>
+<td><b>모니터링 · 관측</b></td>
 <td>Prometheus · Grafana · Thanos 구성<br/>cAdvisor · Node Exporter 컨테이너/호스트 관측<br/>Grafana API로 대시보드 배포 자동화</td>
 <td>와트<br/>라온피플</td>
 </tr>
-
 <tr>
-<td><b>🔧 서버 · DB<br/>장애 분석</b></td>
+<td><b>서버 · DB<br/>장애 분석</b></td>
 <td>Ubuntu 구축, Nginx Reverse Proxy · LB<br/>AWS EC2 · Naver Cloud · GCP<br/>PostgreSQL · MySQL · MSSQL · MongoDB · Redis<br/>DNS · 인증서 · 권한 · WebSocket 이슈</td>
 <td>와트<br/>오베네프</td>
 </tr>
+</table>
 
+### 🔀 둘 다 걸친 일 &nbsp;<sub>— 여기가 제일 자신 있습니다</sub>
+
+<table>
+<tr><th width="26%">무엇을</th><th width="74%">왜 양쪽을 알아야 하는지</th></tr>
 <tr>
-<td><b>🌐 웹 서비스 개발</b><br/><sub>기획부터 배포까지</sub></td>
-<td>React · Next.js · TypeScript · Tailwind · shadcn/ui<br/>Express · NestJS · Spring Boot(Java 17) · gRPC<br/>Keycloak SSO · JWT 인증 연동</td>
-<td>와트<br/>엔아이<br/>오베네프</td>
+<td><b>앱 컨테이너화</b></td>
+<td>Dockerfile은 인프라 파일이 아니라 <b>그 앱을 아는 사람이 써야</b> 하는 파일입니다.<br/>빌드 캐시, 레이어 순서, 런타임 의존성은 코드를 읽어야 잡힙니다.</td>
+</tr>
+<tr>
+<td><b>CI 파이프라인 구축</b></td>
+<td>파이프라인만 짜면 절반입니다. <b>거기서 깨지는 코드를 같이 고쳐야</b> 끝납니다.<br/>CI에서만 실패하는 테스트, 환경 차이로 깨지는 빌드까지 봅니다.</td>
+</tr>
+<tr>
+<td><b>개발환경 표준화</b></td>
+<td>Docker Compose 기반으로 <b>모든 개발자가 같은 환경</b>에서 돌게 만듭니다.<br/>"제 컴퓨터에선 되는데요"를 없애는 작업입니다.</td>
+</tr>
+<tr>
+<td><b>환경변수 · 시크릿 정리</b></td>
+<td>env 관리가 무너지면 브랜치·버전 관리까지 같이 무너집니다.<br/>실제로 그렇게 꼬인 프로젝트를 수습해봤습니다.</td>
+</tr>
+<tr>
+<td><b>로깅 설계</b></td>
+<td>장애가 났을 때 <b>원인을 찾을 수 있는 로그</b>를 코드 단에서 설계합니다.<br/>로그가 부실하면 인프라를 아무리 봐도 원인이 안 나옵니다.</td>
+</tr>
+<tr>
+<td><b>성능 · 장애 원인 판별</b></td>
+<td>느린 게 쿼리인지, 코드인지, 리소스인지, 네트워크인지 <b>가려냅니다.</b><br/>이걸 못 가리면 엉뚱한 곳에 돈을 씁니다.</td>
 </tr>
 </table>
 
@@ -170,6 +218,48 @@ flowchart LR
 → [저장소](https://github.com/smshack/devops-portfolio)
 
 </details>
+
+<br>
+
+## 📡 지금 하는 것
+
+<sub>이 표는 매일 자동으로 갱신됩니다. 마지막 갱신 시각을 보시면 제가 살아 있는지 아실 수 있습니다. 최종 갱신 2026-09-06 14:44 KST</sub>
+
+<table><tr><td valign="top" width="50%">
+
+### 🔨 최근 작업
+<!-- activity starts -->
+**[git-basic](https://github.com/smshack/git-basic)** · 오늘<br/><sub>chore: MIT 라이선스 추가</sub>
+
+**[devops-portfolio](https://github.com/smshack/devops-portfolio)** · 오늘<br/><sub>chore: MIT 라이선스 추가</sub>
+
+**[docker-resource](https://github.com/smshack/docker-resource)** · 오늘<br/><sub>chore: MIT 라이선스 추가</sub>
+
+**[kuber-resource](https://github.com/smshack/kuber-resource)** · 오늘<br/><sub>chore: MIT 라이선스 추가</sub>
+
+**[MYNOTE](https://github.com/smshack/MYNOTE)** · 29일 전<br/><sub>gitlab-cicd</sub>
+<!-- activity ends -->
+
+</td><td valign="top" width="50%">
+
+### 📦 저장소
+<!-- repos starts -->
+**[git-basic](https://github.com/smshack/git-basic)** · 오늘<br/><sub>Git · GitHub 사용 기초 정리 (한국어)</sub>
+
+**[devops-portfolio](https://github.com/smshack/devops-portfolio)** · 오늘<br/><sub>오픈소스를 운영 관점에서 뜯어보는 기록</sub>
+
+**[docker-resource](https://github.com/smshack/docker-resource)** · 오늘<br/><sub>실서비스에 올린 Docker Compose 리소스 모음</sub>
+
+**[kuber-resource](https://github.com/smshack/kuber-resource)** · 오늘<br/><sub>실서비스에 올린 Kubernetes / Helm 리소스 모음</sub>
+
+**[program-language](https://github.com/smshack/program-language)** · 오늘<br/><sub>프로그래밍 언어 기초 정리</sub>
+<!-- repos ends -->
+
+</td></tr></table>
+
+<div align="right">
+<a href="https://github.com/smshack/smshack/actions/workflows/build-readme.yml"><img src="https://github.com/smshack/smshack/actions/workflows/build-readme.yml/badge.svg" alt="Build README"></a>
+</div>
 
 <br>
 

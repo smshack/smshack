@@ -2,7 +2,7 @@
 
 # 서명석 · Myungseok Seo
 
-### DevOps / GitLab Engineer · 8년차
+### DevOps / GitLab Engineer · 7년차
 
 **배포 이후의 세계를 담당합니다** — 온프렘부터 클라우드, 그리고 폐쇄망까지
 
@@ -29,7 +29,7 @@ flowchart LR
     style E fill:#FC6D26,stroke:#FC6D26,color:#fff
 ```
 
-<sub>주황색 구간이 제가 8년간 서 있던 자리입니다. 대부분의 개발자는 첫 칸까지만 봅니다.</sub>
+<sub>주황색 구간이 제가 7년간 서 있던 자리입니다. 대부분의 개발자는 첫 칸까지만 봅니다.</sub>
 
 <br>
 
@@ -130,7 +130,7 @@ flowchart LR
 
 <br>
 
-## 경력 · 8년
+## 경력 · 7년
 
 <sub>펼쳐서 보실 수 있습니다.</sub>
 

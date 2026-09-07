@@ -223,7 +223,7 @@ flowchart LR
 
 ## 📡 지금 하는 것
 
-<sub>이 표는 매일 자동으로 갱신됩니다. 마지막 갱신 시각을 보시면 제가 살아 있는지 아실 수 있습니다. 최종 갱신 2026-09-06 14:46 KST</sub>
+<sub>이 표는 매일 자동으로 갱신됩니다. 마지막 갱신 시각을 보시면 제가 살아 있는지 아실 수 있습니다. 최종 갱신 2026-09-07 12:14 KST</sub>
 
 <table><tr><td valign="top" width="50%">
 
@@ -237,7 +237,7 @@ flowchart LR
 
 **[kuber-resource](https://github.com/smshack/kuber-resource)** · 오늘<br/><sub>chore: MIT 라이선스 추가</sub>
 
-**[MYNOTE](https://github.com/smshack/MYNOTE)** · 29일 전<br/><sub>gitlab-cicd</sub>
+**[MYNOTE](https://github.com/smshack/MYNOTE)** · 1개월 전<br/><sub>gitlab-cicd</sub>
 <!-- activity ends -->
 
 </td><td valign="top" width="50%">

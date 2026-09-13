@@ -223,19 +223,19 @@ flowchart LR
 
 ## 📡 지금 하는 것
 
-<sub>이 표는 매일 자동으로 갱신됩니다. 마지막 갱신 시각을 보시면 제가 살아 있는지 아실 수 있습니다. 최종 갱신 2026-09-12 12:26 KST</sub>
+<sub>이 표는 매일 자동으로 갱신됩니다. 마지막 갱신 시각을 보시면 제가 살아 있는지 아실 수 있습니다. 최종 갱신 2026-09-13 12:32 KST</sub>
 
 <table><tr><td valign="top" width="50%">
 
 ### 🔨 최근 작업
 <!-- activity starts -->
-**[git-basic](https://github.com/smshack/git-basic)** · 5일 전<br/><sub>chore: MIT 라이선스 추가</sub>
+**[git-basic](https://github.com/smshack/git-basic)** · 6일 전<br/><sub>chore: MIT 라이선스 추가</sub>
 
-**[devops-portfolio](https://github.com/smshack/devops-portfolio)** · 5일 전<br/><sub>chore: MIT 라이선스 추가</sub>
+**[devops-portfolio](https://github.com/smshack/devops-portfolio)** · 6일 전<br/><sub>chore: MIT 라이선스 추가</sub>
 
-**[docker-resource](https://github.com/smshack/docker-resource)** · 5일 전<br/><sub>chore: MIT 라이선스 추가</sub>
+**[docker-resource](https://github.com/smshack/docker-resource)** · 6일 전<br/><sub>chore: MIT 라이선스 추가</sub>
 
-**[kuber-resource](https://github.com/smshack/kuber-resource)** · 5일 전<br/><sub>chore: MIT 라이선스 추가</sub>
+**[kuber-resource](https://github.com/smshack/kuber-resource)** · 6일 전<br/><sub>chore: MIT 라이선스 추가</sub>
 
 **[MYNOTE](https://github.com/smshack/MYNOTE)** · 1개월 전<br/><sub>gitlab-cicd</sub>
 <!-- activity ends -->
@@ -244,15 +244,15 @@ flowchart LR
 
 ### 📦 저장소
 <!-- repos starts -->
-**[git-basic](https://github.com/smshack/git-basic)** · 5일 전<br/><sub>Git · GitHub 사용 기초 정리 (한국어)</sub>
+**[git-basic](https://github.com/smshack/git-basic)** · 6일 전<br/><sub>Git · GitHub 사용 기초 정리 (한국어)</sub>
 
-**[devops-portfolio](https://github.com/smshack/devops-portfolio)** · 5일 전<br/><sub>오픈소스를 운영 관점에서 뜯어보는 기록</sub>
+**[devops-portfolio](https://github.com/smshack/devops-portfolio)** · 6일 전<br/><sub>오픈소스를 운영 관점에서 뜯어보는 기록</sub>
 
-**[docker-resource](https://github.com/smshack/docker-resource)** · 5일 전<br/><sub>실서비스에 올린 Docker Compose 리소스 모음</sub>
+**[docker-resource](https://github.com/smshack/docker-resource)** · 6일 전<br/><sub>실서비스에 올린 Docker Compose 리소스 모음</sub>
 
-**[kuber-resource](https://github.com/smshack/kuber-resource)** · 5일 전<br/><sub>실서비스에 올린 Kubernetes / Helm 리소스 모음</sub>
+**[kuber-resource](https://github.com/smshack/kuber-resource)** · 6일 전<br/><sub>실서비스에 올린 Kubernetes / Helm 리소스 모음</sub>
 
-**[program-language](https://github.com/smshack/program-language)** · 5일 전<br/><sub>프로그래밍 언어 기초 정리</sub>
+**[program-language](https://github.com/smshack/program-language)** · 6일 전<br/><sub>프로그래밍 언어 기초 정리</sub>
 <!-- repos ends -->
 
 </td></tr></table>

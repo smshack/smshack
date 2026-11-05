@@ -223,7 +223,7 @@ flowchart LR
 
 ## 📡 지금 하는 것
 
-<sub>이 표는 매일 자동으로 갱신됩니다. 마지막 갱신 시각을 보시면 제가 살아 있는지 아실 수 있습니다. 최종 갱신 2026-11-04 14:05 KST</sub>
+<sub>이 표는 매일 자동으로 갱신됩니다. 마지막 갱신 시각을 보시면 제가 살아 있는지 아실 수 있습니다. 최종 갱신 2026-11-05 14:27 KST</sub>
 
 <table><tr><td valign="top" width="50%">
 
@@ -252,7 +252,7 @@ flowchart LR
 
 **[kuber-resource](https://github.com/smshack/kuber-resource)** · 1개월 전<br/><sub>실서비스에 올린 Kubernetes / Helm 리소스 모음</sub>
 
-**[program-language](https://github.com/smshack/program-language)** · 1개월 전<br/><sub>프로그래밍 언어 기초 정리</sub>
+**[program-language](https://github.com/smshack/program-language)** · 2개월 전<br/><sub>프로그래밍 언어 기초 정리</sub>
 <!-- repos ends -->
 
 </td></tr></table>
